@@ -1,18 +1,14 @@
-## Getting Started
+# Sports Card Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+Bu projenin amacı; nesnye yönelik programlama yapısını ortaya koyabilmek ve çözüm üretebilmek amacı ile 16 karttan oluşan basit bir kart oyunu tasarlamaktır. 
+Oyuncunun bilgisayara karşı oynayacağı oyun, 2 farklı kategoride (futbol-basketbol) yürütülecektir. Her oyuncunun 8 kartı (4-futbolcu,4-basketbolcu) vardır, her 
+kategorinin kendine ait 3 farklı karşılaşma alanı vardır(futbol için serbest atis,penalaltı vb) tur sırası gelen kategoride rasgele seçilen karşılaşma alanına göre 
+seçilen oyuncuların özellik puanları karşılaştırılacak, buna göre skor tablosu değişecek elde kart bitince oyun sonlanacaktır.
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+<img width="901" alt="Screenshot_2" src="https://user-images.githubusercontent.com/43906043/175384139-28f13603-3a1c-4b65-8694-71fff914e117.png">
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
