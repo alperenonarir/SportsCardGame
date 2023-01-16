@@ -1,0 +1,46 @@
+
+
+public class basketbolcu extends sporcu {
+
+	 String basketbolcuAdi;
+	 String basketbolcuTakim;
+	
+	
+		public basketbolcu(String basketbolcuAdi , String basketbolcuTakim) {
+		
+		super(basketbolcuAdi,basketbolcuTakim);
+		this.basketbolcuAdi=basketbolcuAdi;
+		this.basketbolcuTakim=basketbolcuTakim;
+	  			
+		
+	}
+	
+   public basketbolcu() {super(); }
+   
+   
+// overrire edilmiş set get puan metodları
+
+
+        @Override
+void setPuan(int birinci_özellik , int ikinci_özellik, int ucuncu_özellik) {
+	
+	birinci_özellik_puani =birinci_özellik;
+	ikinci_özellik_puani = ikinci_özellik;
+	ucuncu_özellik_puani = ucuncu_özellik;
+}
+
+
+
+        @Override 
+        public int getPuan(int karsilasmaalani) { 
+	
+	     if(karsilasmaalani==1)   {return birinci_özellik_puani;}
+	else if(karsilasmaalani==2)   {return ikinci_özellik_puani;}
+	
+	else if(karsilasmaalani==3)   {return ucuncu_özellik_puani;} 
+	
+	return 0;}
+	
+
+		
+	}
